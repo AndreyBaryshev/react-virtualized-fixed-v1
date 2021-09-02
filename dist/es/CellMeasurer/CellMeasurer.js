@@ -33,7 +33,9 @@ import { findDOMNode } from 'react-dom';
  * Measurements are stored in a per-cell cache.
  * Cached-content is not be re-measured.
  */
-var CellMeasurer = /*#__PURE__*/function (_React$PureComponent) {
+var CellMeasurer =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(CellMeasurer, _React$PureComponent);
 
   function CellMeasurer() {

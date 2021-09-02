@@ -18,7 +18,9 @@ import CellMeasurerCache from './CellMeasurerCache';
 import Grid from '../Grid';
 import styles from './CellMeasurer.example.css';
 
-var DynamicHeightGrid = /*#__PURE__*/function (_React$PureComponent) {
+var DynamicHeightGrid =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(DynamicHeightGrid, _React$PureComponent);
 
   function DynamicHeightGrid(props, context) {

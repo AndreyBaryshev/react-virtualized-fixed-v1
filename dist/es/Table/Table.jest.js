@@ -120,7 +120,9 @@ describe('Table', function () {
       expect(result instanceof Error).toEqual(false);
     });
     it('should accept subclasses of Column as children', function () {
-      var AnotherColumn = /*#__PURE__*/function (_Column) {
+      var AnotherColumn =
+      /*#__PURE__*/
+      function (_Column) {
         _inherits(AnotherColumn, _Column);
 
         function AnotherColumn() {

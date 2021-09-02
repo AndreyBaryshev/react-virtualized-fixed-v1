@@ -22,7 +22,9 @@ import createCellPositioner from './createCellPositioner';
 import Masonry from './Masonry';
 import styles from './Masonry.example.css';
 
-var GridExample = /*#__PURE__*/function (_React$PureComponent) {
+var GridExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(GridExample, _React$PureComponent);
 
   function GridExample(props, context) {

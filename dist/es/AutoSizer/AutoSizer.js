@@ -58,7 +58,9 @@ import createDetectElementResize from '../vendor/detectElementResize';
   removeResizeListener: ResizeHandler,
 };*/
 
-var AutoSizer = /*#__PURE__*/function (_React$Component) {
+var AutoSizer =
+/*#__PURE__*/
+function (_React$Component) {
   _inherits(AutoSizer, _React$Component);
 
   function AutoSizer() {

@@ -18,7 +18,9 @@ import styles from './Collection.example.css'; // Defines a pattern of sizes and
 var GUTTER_SIZE = 3;
 var CELL_WIDTH = 75;
 
-var CollectionExample = /*#__PURE__*/function (_React$PureComponent) {
+var CollectionExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(CollectionExample, _React$PureComponent);
 
   function CollectionExample(props, context) {

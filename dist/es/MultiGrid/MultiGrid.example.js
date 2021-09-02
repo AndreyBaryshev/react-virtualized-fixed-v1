@@ -31,7 +31,9 @@ var STYLE_TOP_RIGHT_GRID = {
   fontWeight: 'bold'
 };
 
-var MultiGridExample = /*#__PURE__*/function (_React$PureComponent) {
+var MultiGridExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(MultiGridExample, _React$PureComponent);
 
   function MultiGridExample(props, context) {

@@ -15,7 +15,9 @@ import List from './List';
 import { ContentBox, ContentBoxHeader, ContentBoxParagraph } from '../demo/ContentBox';
 import { LabeledInput, InputRow } from '../demo/LabeledInput';
 
-var ListExample = /*#__PURE__*/function (_React$PureComponent) {
+var ListExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ListExample, _React$PureComponent);
 
   function ListExample(props, context) {

@@ -79,7 +79,9 @@ var getWindow = function getWindow() {
   return typeof window !== 'undefined' ? window : undefined;
 };
 
-var WindowScroller = /*#__PURE__*/function (_React$PureComponent) {
+var WindowScroller =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(WindowScroller, _React$PureComponent);
 
   function WindowScroller() {

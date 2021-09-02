@@ -20,7 +20,9 @@ import Grid from './Grid';
 import clsx from 'clsx';
 import styles from './Grid.example.css';
 
-var GridExample = /*#__PURE__*/function (_React$PureComponent) {
+var GridExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(GridExample, _React$PureComponent);
 
   function GridExample(props, context) {

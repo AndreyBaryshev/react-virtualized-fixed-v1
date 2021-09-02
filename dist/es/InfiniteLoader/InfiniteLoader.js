@@ -15,7 +15,9 @@ import createCallbackMemoizer from '../utils/createCallbackMemoizer';
  * It is intended as a convenience component; fork it if you'd like finer-grained control over data-loading.
  */
 
-var InfiniteLoader = /*#__PURE__*/function (_React$PureComponent) {
+var InfiniteLoader =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(InfiniteLoader, _React$PureComponent);
 
   function InfiniteLoader(props, context) {

@@ -496,7 +496,9 @@ describe('forceUpdateReactVirtualizedComponent', function () {
   it('should call :recomputeGridSize if defined', function () {
     var recomputeGridSize = jest.fn();
 
-    var TestComponent = /*#__PURE__*/function (_React$Component) {
+    var TestComponent =
+    /*#__PURE__*/
+    function (_React$Component) {
       _inherits(TestComponent, _React$Component);
 
       function TestComponent() {
@@ -534,7 +536,9 @@ describe('forceUpdateReactVirtualizedComponent', function () {
   it('should called :recomputeRowHeights if defined', function () {
     var recomputeRowHeights = jest.fn();
 
-    var TestComponent = /*#__PURE__*/function (_React$Component2) {
+    var TestComponent =
+    /*#__PURE__*/
+    function (_React$Component2) {
       _inherits(TestComponent, _React$Component2);
 
       function TestComponent() {
@@ -572,7 +576,9 @@ describe('forceUpdateReactVirtualizedComponent', function () {
   it('should call :forceUpdate otherwise', function () {
     var forceUpdate = jest.fn();
 
-    var TestComponent = /*#__PURE__*/function (_React$Component3) {
+    var TestComponent =
+    /*#__PURE__*/
+    function (_React$Component3) {
       _inherits(TestComponent, _React$Component3);
 
       function TestComponent() {

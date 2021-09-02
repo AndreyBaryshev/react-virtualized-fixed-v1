@@ -30,7 +30,9 @@ export var DEFAULT_WIDTH = 100; // Enables more intelligent mapping of a given c
 /**
  * Caches measurements for a given cell.
  */
-var CellMeasurerCache = /*#__PURE__*/function () {
+var CellMeasurerCache =
+/*#__PURE__*/
+function () {
   function CellMeasurerCache() {
     var _this = this;
 

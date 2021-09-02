@@ -17,7 +17,9 @@ import getUpdatedOffsetForIndex from '../utils/getUpdatedOffsetForIndex';
  * Renders scattered or non-linear data.
  * Unlike Grid, which renders checkerboard data, Collection can render arbitrarily positioned- even overlapping- data.
  */
-var Collection = /*#__PURE__*/function (_React$PureComponent) {
+var Collection =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(Collection, _React$PureComponent);
 
   function Collection(props, context) {

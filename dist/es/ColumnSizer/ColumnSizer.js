@@ -10,7 +10,9 @@ import * as React from 'react';
  * High-order component that auto-calculates column-widths for `Grid` cells.
  */
 
-var ColumnSizer = /*#__PURE__*/function (_React$PureComponent) {
+var ColumnSizer =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ColumnSizer, _React$PureComponent);
 
   function ColumnSizer(props, context) {

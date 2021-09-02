@@ -20,7 +20,9 @@ import styles from './WindowScroller.example.css';
   showHeaderText: boolean,
 };*/
 
-var WindowScrollerExample = /*#__PURE__*/function (_React$PureComponent) {
+var WindowScrollerExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(WindowScrollerExample, _React$PureComponent);
 
   function WindowScrollerExample() {

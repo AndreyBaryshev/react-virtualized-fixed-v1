@@ -17,7 +17,9 @@ import SortDirection from './SortDirection';
 import SortIndicator from './SortIndicator';
 import styles from './Table.example.css';
 
-var TableExample = /*#__PURE__*/function (_React$PureComponent) {
+var TableExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(TableExample, _React$PureComponent);
 
   function TableExample(props, context) {

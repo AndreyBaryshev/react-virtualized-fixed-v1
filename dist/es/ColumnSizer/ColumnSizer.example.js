@@ -12,7 +12,9 @@ import Grid from '../Grid';
 import { ContentBox, ContentBoxHeader, ContentBoxParagraph } from '../demo/ContentBox';
 import { LabeledInput, InputRow } from '../demo/LabeledInput';
 
-var ColumnSizerExample = /*#__PURE__*/function (_React$PureComponent) {
+var ColumnSizerExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ColumnSizerExample, _React$PureComponent);
 
   function ColumnSizerExample(props) {

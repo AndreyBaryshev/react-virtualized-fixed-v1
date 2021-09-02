@@ -21,7 +21,9 @@ import { getMaxElementSize } from './maxElementSize.js';
 /**
  * Extends CellSizeAndPositionManager and adds scaling behavior for lists that are too large to fit within a browser's native limits.
  */
-var ScalingCellSizeAndPositionManager = /*#__PURE__*/function () {
+var ScalingCellSizeAndPositionManager =
+/*#__PURE__*/
+function () {
   function ScalingCellSizeAndPositionManager(_ref) {
     var _ref$maxScrollSize = _ref.maxScrollSize,
         maxScrollSize = _ref$maxScrollSize === void 0 ? getMaxElementSize() : _ref$maxScrollSize,

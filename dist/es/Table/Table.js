@@ -26,7 +26,9 @@ import SortDirection from './SortDirection';
  * This component expects explicit width, height, and padding parameters.
  */
 
-var Table = /*#__PURE__*/function (_React$PureComponent) {
+var Table =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(Table, _React$PureComponent);
 
   function Table(props) {

@@ -12,7 +12,9 @@ import CellMeasurerCache from './CellMeasurerCache';
 import List from '../List';
 import styles from './CellMeasurer.example.css';
 
-var DynamicHeightList = /*#__PURE__*/function (_React$PureComponent) {
+var DynamicHeightList =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(DynamicHeightList, _React$PureComponent);
 
   function DynamicHeightList(props, context) {

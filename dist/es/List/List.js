@@ -102,7 +102,9 @@ import clsx from 'clsx';
   width: number,
 };*/
 
-var List = /*#__PURE__*/function (_React$PureComponent) {
+var List =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(List, _React$PureComponent);
 
   function List() {
