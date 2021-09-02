@@ -10,7 +10,9 @@ import * as React from 'react';
  * HOC that simplifies the process of synchronizing scrolling between two or more virtualized components.
  */
 
-var ScrollSync = /*#__PURE__*/function (_React$PureComponent) {
+var ScrollSync =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ScrollSync, _React$PureComponent);
 
   function ScrollSync(props, context) {

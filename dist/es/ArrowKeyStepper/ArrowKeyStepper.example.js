@@ -21,7 +21,9 @@ import styles from './ArrowKeyStepper.example.css';
   scrollToRow: number,
 };*/
 
-var ArrowKeyStepperExample = /*#__PURE__*/function (_React$PureComponent) {
+var ArrowKeyStepperExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ArrowKeyStepperExample, _React$PureComponent);
 
   function ArrowKeyStepperExample() {

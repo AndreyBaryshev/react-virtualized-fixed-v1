@@ -80,7 +80,9 @@ export var DEFAULT_SCROLLING_RESET_TIME_INTERVAL = 150;
  *   (Items may not span multiple columns.)
  */
 
-var Masonry = /*#__PURE__*/function (_React$PureComponent) {
+var Masonry =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(Masonry, _React$PureComponent);
 
   function Masonry() {

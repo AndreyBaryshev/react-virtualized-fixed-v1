@@ -57,9 +57,7 @@ var SCROLL_POSITION_CHANGE_REASONS = {
 
 var renderNull
 /*: NoContentRenderer*/
-= function renderNull
-/*: NoContentRenderer*/
-() {
+= function renderNull() {
   return null;
 };
 /*:: type ScrollPosition = {
@@ -266,7 +264,9 @@ var renderNull
  * Renders tabular data with virtualization along the vertical and horizontal axes.
  * Row heights and column widths must be known ahead of time and specified as properties.
  */
-var Grid = /*#__PURE__*/function (_React$PureComponent) {
+var Grid =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(Grid, _React$PureComponent);
 
   // Invokes onSectionRendered callback only when start/stop row or column indices change

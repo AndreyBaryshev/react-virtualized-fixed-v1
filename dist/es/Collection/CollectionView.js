@@ -37,7 +37,9 @@ var SCROLL_POSITION_CHANGE_REASONS = {
  * This component does not render any visible content itself; it defers to the specified :cellLayoutManager.
  */
 
-var CollectionView = /*#__PURE__*/function (_React$PureComponent) {
+var CollectionView =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(CollectionView, _React$PureComponent);
 
   // Invokes callbacks only when their values have changed.

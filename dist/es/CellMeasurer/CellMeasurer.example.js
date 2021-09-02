@@ -20,7 +20,9 @@ import DynamicHeightList from './CellMeasurer.DynamicHeightList.example.js';
 import DynamicHeightTableColumn from './CellMeasurer.DynamicHeightTableColumn.example.js';
 var demoComponents = [DynamicWidthGrid, DynamicHeightGrid, DynamicWidthMultiGrid, DynamicHeightList, DynamicHeightTableColumn];
 
-var CellMeasurerExample = /*#__PURE__*/function (_React$PureComponent) {
+var CellMeasurerExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(CellMeasurerExample, _React$PureComponent);
 
   function CellMeasurerExample(props, context) {

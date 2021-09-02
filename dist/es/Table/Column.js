@@ -13,7 +13,9 @@ import SortDirection from './SortDirection';
  * Describes the header and cell contents of a table column.
  */
 
-var Column = /*#__PURE__*/function (_React$Component) {
+var Column =
+/*#__PURE__*/
+function (_React$Component) {
   _inherits(Column, _React$Component);
 
   function Column() {

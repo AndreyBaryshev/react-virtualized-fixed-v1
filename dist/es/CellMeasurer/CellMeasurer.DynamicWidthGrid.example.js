@@ -18,7 +18,9 @@ import CellMeasurerCache from './CellMeasurerCache';
 import Grid from '../Grid';
 import styles from './CellMeasurer.example.css';
 
-var DynamicWidthGrid = /*#__PURE__*/function (_React$PureComponent) {
+var DynamicWidthGrid =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(DynamicWidthGrid, _React$PureComponent);
 
   function DynamicWidthGrid(props, context) {

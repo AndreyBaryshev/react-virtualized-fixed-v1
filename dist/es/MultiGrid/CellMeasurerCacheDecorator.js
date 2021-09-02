@@ -15,7 +15,9 @@ import { CellMeasurerCache } from '../CellMeasurer';
 /**
  * Caches measurements for a given cell.
  */
-var CellMeasurerCacheDecorator = /*#__PURE__*/function () {
+var CellMeasurerCacheDecorator =
+/*#__PURE__*/
+function () {
   function CellMeasurerCacheDecorator() {
     var _this = this;
 

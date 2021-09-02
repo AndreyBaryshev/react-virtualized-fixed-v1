@@ -2196,7 +2196,9 @@ describe('Grid', function () {
     it('should not re-render grid components if they extend PureComponent', function () {
       var componentUpdates = 0;
 
-      var GridComponent = /*#__PURE__*/function (_React$PureComponent) {
+      var GridComponent =
+      /*#__PURE__*/
+      function (_React$PureComponent) {
         _inherits(GridComponent, _React$PureComponent);
 
         function GridComponent() {

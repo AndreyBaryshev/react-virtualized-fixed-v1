@@ -45,7 +45,9 @@ import { polyfill } from 'react-lifecycles-compat';
   },
 };*/
 
-var ArrowKeyStepper = /*#__PURE__*/function (_React$PureComponent) {
+var ArrowKeyStepper =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(ArrowKeyStepper, _React$PureComponent);
 
   function ArrowKeyStepper() {

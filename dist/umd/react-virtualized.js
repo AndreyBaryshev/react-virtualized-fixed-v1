@@ -3711,7 +3711,7 @@
                 });
             }), _defineProperty(_assertThisInitialized(_this), "_rowHeightBottomGrid", function(_ref6) {
                 var index = _ref6.index, _this$props5 = _this.props, fixedRowCount = _this$props5.fixedRowCount, rowCount = _this$props5.rowCount, rowHeight = _this$props5.rowHeight, _this$state3 = _this.state, scrollbarSize = _this$state3.scrollbarSize;
-                return _this$state3.showVerticalScrollbar && index === rowCount - fixedRowCount ? scrollbarSize : "function" == typeof rowHeight ? rowHeight({
+                return _this$state3.showHorizontalScrollbar && index === rowCount - fixedRowCount ? scrollbarSize : "function" == typeof rowHeight ? rowHeight({
                     index: index + fixedRowCount
                 }) : rowHeight;
             }), _defineProperty(_assertThisInitialized(_this), "_topLeftGridRef", function(ref) {

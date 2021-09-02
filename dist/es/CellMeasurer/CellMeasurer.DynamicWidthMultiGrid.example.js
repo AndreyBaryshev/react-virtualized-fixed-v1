@@ -18,7 +18,9 @@ import CellMeasurerCache from './CellMeasurerCache';
 import MultiGrid from '../MultiGrid';
 import styles from './CellMeasurer.example.css';
 
-var DynamicWidthMultiGrid = /*#__PURE__*/function (_React$PureComponent) {
+var DynamicWidthMultiGrid =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(DynamicWidthMultiGrid, _React$PureComponent);
 
   function DynamicWidthMultiGrid(props, context) {

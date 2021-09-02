@@ -16,7 +16,9 @@ import styles from './InfiniteLoader.example.css';
 var STATUS_LOADING = 1;
 var STATUS_LOADED = 2;
 
-var InfiniteLoaderExample = /*#__PURE__*/function (_React$PureComponent) {
+var InfiniteLoaderExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(InfiniteLoaderExample, _React$PureComponent);
 
   function InfiniteLoaderExample(props) {

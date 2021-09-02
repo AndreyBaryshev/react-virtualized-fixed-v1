@@ -26,7 +26,9 @@ var SCROLLBAR_SIZE_BUFFER = 20;
  * If sticky columns, 2 sticky header Grids will be rendered.
  */
 
-var MultiGrid = /*#__PURE__*/function (_React$PureComponent) {
+var MultiGrid =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(MultiGrid, _React$PureComponent);
 
   function MultiGrid(props, context) {
@@ -211,12 +213,12 @@ var MultiGrid = /*#__PURE__*/function (_React$PureComponent) {
           rowHeight = _this$props5.rowHeight;
       var _this$state3 = _this.state,
           scrollbarSize = _this$state3.scrollbarSize,
-          showVerticalScrollbar = _this$state3.showVerticalScrollbar; // An extra cell is added to the count
+          showHorizontalScrollbar = _this$state3.showHorizontalScrollbar; // An extra cell is added to the count
       // This gives the smaller Grid extra room for offset,
       // In case the main (bottom right) Grid has a scrollbar
       // If no scrollbar, the extra space is overflow:hidden anyway
 
-      if (showVerticalScrollbar && index === rowCount - fixedRowCount) {
+      if (showHorizontalScrollbar && index === rowCount - fixedRowCount) {
         return scrollbarSize;
       }
 

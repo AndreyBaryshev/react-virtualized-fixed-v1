@@ -13,7 +13,9 @@ import CellMeasurerCache from './CellMeasurerCache';
 import { Column, Table } from '../Table';
 import styles from './CellMeasurer.example.css';
 
-var DynamicHeightTableColumn = /*#__PURE__*/function (_React$PureComponent) {
+var DynamicHeightTableColumn =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(DynamicHeightTableColumn, _React$PureComponent);
 
   function DynamicHeightTableColumn() {

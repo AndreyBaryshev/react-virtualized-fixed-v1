@@ -17,7 +17,9 @@ var LEFT_COLOR_TO = hexToRgb('#BC3959');
 var TOP_COLOR_FROM = hexToRgb('#000000');
 var TOP_COLOR_TO = hexToRgb('#333333');
 
-var GridExample = /*#__PURE__*/function (_React$PureComponent) {
+var GridExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(GridExample, _React$PureComponent);
 
   function GridExample(props, context) {

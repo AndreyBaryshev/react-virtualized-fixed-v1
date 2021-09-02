@@ -19,7 +19,9 @@ import styles from './AutoSizer.example.css';
   hideDescription: boolean,
 };*/
 
-var AutoSizerExample = /*#__PURE__*/function (_React$PureComponent) {
+var AutoSizerExample =
+/*#__PURE__*/
+function (_React$PureComponent) {
   _inherits(AutoSizerExample, _React$PureComponent);
 
   function AutoSizerExample() {
